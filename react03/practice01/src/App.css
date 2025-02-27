@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.image {
+  height: 100px;
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-item {
+  margin-left: 10px;
+  font-size: 1.1;
+}
+
+footer {
+  position:fixed;
+  text-align: center;
+  font-size: small;
+  padding: 10px;
+}
